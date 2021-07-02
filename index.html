@@ -1,9 +1,185 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Example</title>
-    </head>
-    <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
-    </body>
-</html>
+<!doctype html>
+
+<!--[if lt IE 7]><html lang="de-DE" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="de-DE" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="de-DE" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="de-DE" class="no-js"><!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+				<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<link rel="pingback" href="http://localhost/xmlrpc.php">
+
+				<title>blog &#8211; Eine weitere WordPress-Website</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="blog &raquo; Feed" href="http://localhost/index.php/feed/" />
+<link rel="alternate" type="application/rss+xml" title="blog &raquo; Kommentar-Feed" href="http://localhost/index.php/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://localhost/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='urbanbold-main-stylesheet-css'  href='http://localhost/wp-content/themes/urban-bold/style.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='urbanbold-font-css'  href='http://localhost/wp-content/themes/urban-bold/css/font-awesome.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='urbanbold-stylesheet-css'  href='http://localhost/wp-content/themes/urban-bold/library/css/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='urbanbold-ie-only-css'  href='http://localhost/wp-content/themes/urban-bold/library/css/ie.css?ver=5.7.2' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='urbanboldFonts-css'  href='http://localhost/wp-content/themes/urban-bold/fonts/raleway-font.css?ver=5.7.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://localhost/wp-content/themes/urban-bold/library/js/libs/modernizr.custom.min.js?ver=2.5.3' id='urbanbold-modernizr-js'></script>
+<script type='text/javascript' src='http://localhost/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='http://localhost/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="http://localhost/index.php/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+		
+	</head>
+
+	<body class="home blog">
+
+		<div id="container">
+
+			<header class="header" role="banner" style="background:url()no-repeat;background-size:cover;">
+				<div id="inner-header" class="wrap cf header-inner">
+
+											<p id="logo" class="h1"><a href="http://localhost" rel="nofollow">blog</a></p>
+					
+					<div id="responsive-nav">
+            			<img src="http://localhost/wp-content/themes/urban-bold/images/nav.png" alt="nav">
+       				</div>
+   					 
+   					 <div class="clear no-display"></div>
+   					 <nav role="navigation" id="main-navigation">
+   					 								<ul class="nav top-nav cf">
+								<li class="page_item page-item-2"><a href="http://localhost/index.php/beispiel-seite/">Beispiel-Seite</a></li>
+							</ul>
+											</nav>
+
+				</div>
+
+			</header>		<div class="front-wrapper">
+			
+			<div id="content">
+				
+				<div id="inner-content" class="wrap cf slider">
+										<div id="slide-wrap" class="">
+			        					  
+							            
+		           			<div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-slides="> div.slides" data-cycle-timeout="5000" data-cycle-prev="#sliderprev" data-cycle-next="#slidernext">
+	            
+	            						 
+								<div class="slides">
+					              
+									<div id="post-1" class="post-theme post-1 post type-post status-publish format-standard hentry category-allgemein">
+
+									 
+									 										<div class="slide-noimg"><p></p></div>
+									 
+									 									   						
+									</div>
+
+									<div class="slide-copy-wrap">
+										<div class="slide-copy">
+											<div class="table">
+												<div class="table-cell">
+									  				<h2 class="slide-title"><a href="http://localhost/index.php/2021/07/02/hallo-welt/" title="Permalink to Hallo Welt!" rel="bookmark">Hallo Welt!</a></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+					              
+					            </div>
+	    
+			 						            
+					            <div class="slidernav">
+					                <a id="sliderprev" href="#" title="Previous">&#9664;</a>
+					                <a id="slidernext" href="#" title="Next">&#9654;</a>
+					            </div>
+
+			            	</div>
+			            			            
+			          
+	    			 </div> <!-- slider-wrap -->
+ 				</div>
+
+				<div class="wrap cf">
+					<div class="home-content-area">
+						<div class="blog-list">
+						<article>
+							
+																				  						<div class="item">
+	<a href="http://localhost/index.php/2021/07/02/hallo-welt/" title="Hallo Welt!">
+			</a>
+	<a href="http://localhost/index.php/2021/07/02/hallo-welt/"><h2>Hallo Welt!</h2></a>
+	<div class="date">By <a href="http://localhost/index.php/author/forvitni/" title="Beiträge von forvitni" rel="author">forvitni</a> / <span class="time">2. Juli 2021</span></div>
+	<div class="excerpt"><p>Willkommen bei WordPress. Dies ist dein erster Beitrag. Bearbeite oder lösche ihn und beginne mit dem Schreiben!</p>
+</div>
+</div>				  							     				
+						</article>
+						<div class="clear"></div>
+			     																		</div>
+						<div id="sidebar3" class="sidebar m-all t-1of3 d-2of7 last-col cf" role="complementary">
+
+							
+								
+								<div class="no-widgets">
+									<p>This is a widget ready area. Add some and they will appear here.</p>
+								</div>
+
+							
+						</div> <!-- sidebar -->
+						<div class="clear"></div>
+					</div><!-- content-area -->
+				</div> <!-- inner-content -->
+			</div> <!-- content -->
+		</div><!-- front-wrapper -->
+
+			<footer class="footer" role="contentinfo">
+
+				<div id="inner-footer" class="wrap cf footer-inner">
+										<p class="source-org copyright">
+						 &#169; 2021 blog 
+						<span>						- Made using  <a href="http://wordpress.org/" target="_blank">WordPress</a> and <a href="http://deucethemes.com/themes/urban-bold/" target="_blank">Urban Bold</a>
+												</span>
+					</p>
+
+				</div>
+
+			</footer>
+
+		</div>
+		<a href="#" class="scrollToTop"><span class="fa fa-caret-square-o-up"></span>Back to Top</a>
+		<script type='text/javascript' src='http://localhost/wp-includes/js/jquery/ui/effect.min.js?ver=1.12.1' id='jquery-effects-core-js'></script>
+<script type='text/javascript' src='http://localhost/wp-includes/js/jquery/ui/effect-slide.min.js?ver=1.12.1' id='jquery-effects-slide-js'></script>
+<script type='text/javascript' src='http://localhost/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript' src='http://localhost/wp-content/themes/urban-bold/library/js/jquery.cycle2.min.js?ver=5.7.2' id='cycle2-js'></script>
+<script type='text/javascript' src='http://localhost/wp-content/themes/urban-bold/library/js/jquery.cycle2.tile.min.js?ver=5.7.2' id='cycle2_tile-js'></script>
+<script type='text/javascript' src='http://localhost/wp-content/themes/urban-bold/library/js/jquery.cycle2.shuffle.min.js?ver=5.7.2' id='cycle2_shuffle-js'></script>
+<script type='text/javascript' src='http://localhost/wp-content/themes/urban-bold/library/js/jquery.cycle2.scrollVert.min.js?ver=5.7.2' id='cycle2_scrollvert-js'></script>
+<script type='text/javascript' src='http://localhost/wp-content/themes/urban-bold/library/js/scripts-home.js?ver=5.7.2' id='urbanbold-js-scripts-home-js'></script>
+<script type='text/javascript' src='http://localhost/wp-content/themes/urban-bold/library/js/scripts.js?ver=5.7.2' id='urbanbold-js-js'></script>
+<script type='text/javascript' src='http://localhost/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+	</body>
+
+</html> <!-- end of site. what a ride! -->
