@@ -1,22 +1,32 @@
-<aside>
-	<div class="container">
-		<nav>
-			<ul>
-				<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
-				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
-						
-			</li>
-			</ul>
-			
-			
-			
-		</nav>
-	</div>
-</aside>
+
+<ul>
+  <li><a href="{{ "/home" | prepend: site.baseurl }}">Home</a></li>
+  
+  <li class="dropdown">
+  	<a href="{{ "/blog" | prepend: site.baseurl }}" class="dropbtn">Blog</a>
+    <div class="dropdown-content">
+      {% for post in site.posts %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
+    </div>	
+  </li>  
+  
+  <li class="dropdown">
+  	<a href="#" class="dropbtn">About</a>
+    <div class="dropdown-content">
+ 
+	{% for page in site.pages %} {% if page.title %}
+	  <a href="{{ page.url | prepend: site.baseurl }}" style="font-family: 'Raleway-Regular'">{{ page.title }}</a>
+	{% endif %} {% endfor %}  
+
+    </div>	
+   </li>
+</ul>
+
+
+
 
 <header>
-	<h1><a href=http://localhost:4000 >Home</a></h1>
+	<h1><a>{{ page.title }}</a></h1>
 </header>
  

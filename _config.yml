@@ -38,6 +38,9 @@ kramdown:
   syntax_highlighter_opts:
     default_lang: html
     css_class   : 'syntax'
+    
+plugins_dir:
+  jekyll-menus    
 
 # Exclude from processing.
 # The following items will not be processed, by default.

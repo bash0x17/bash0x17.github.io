@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to flash a LPC-LINK2 (NXP)"
+title:  "How to flash a LPC-LINK2"
 date:   2021-07-02 13:29:15 +0200
 categories: NXP LPC-LINK2
 
