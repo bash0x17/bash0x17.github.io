@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Welcome to hell!"
+date:   2021-07-04 09:32:52 +0200
+categories: jekyll update
+---
+
+Exampel and tests
+~~~shell
+$ cd /usr/local/lpscrypt
+~~~
+
+~~~py
+$ cd /usr/local/lpscrypt
+~~~
+```shell
+user@gdb:~$ ./format0
+%p
+0xbffff67e does not have access!
+```
+
+
+```nasm
+[-------------------------------------code-------------------------------------]
+   0x400737 <main+167>:	sub    esp,0xc
+   0x40073a <main+170>:	lea    eax,[ebp-0x7a]
+   0x40073d <main+173>:	push   eax
+=> 0x40073e <main+174>:	call   0x4004a0 <printf@plt>
+   0x400743 <main+179>:	add    esp,0x10
+   0x400746 <main+182>:	sub    esp,0xc
+   0x400749 <main+185>:	lea    eax,[ebx-0x1257]
+   0x40074f <main+191>:	push   eax
+Guessed arguments:
+arg[0]: 0xbffff63e --> 0x7025 ('%p')
+[------------------------------------stack-------------------------------------]
+0000| 0xbffff620 --> 0xbffff63e --> 0x7025 ('%p')
+0004| 0xbffff624 --> 0xbffff63e --> 0x7025 ('%p')
+0008| 0xbffff628 --> 0xa ('\n')
+0012| 0xbffff62c --> 0x4006a7 (<main+23>:	add    ebx,0x13ad)
+0016| 0xbffff630 --> 0xbffff65e --> 0x40 ('@')
+0020| 0xbffff634 --> 0x0 
+0024| 0xbffff638 --> 0xb7fe5100 (<_dl_lookup_symbol_x+16>:	add    edi,0x19f00)
+0028| 0xbffff63c --> 0x7025fc10 
+[------------------------------------------------------------------------------]
+Legend: code, data, rodata, value
+
+Breakpoint 1, 0x0040073e in main ()
+``` 
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+![image-center](/images/Bild1.jpeg){: .align-center}{:width="500px"}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
