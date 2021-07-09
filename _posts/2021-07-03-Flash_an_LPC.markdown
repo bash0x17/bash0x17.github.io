@@ -13,7 +13,7 @@ Step 1: Install the lpscrypt
 
 Step 2: To boot from the SPIFI fit the JP1 on the board, see on Fig. 1
 
-![image-center](Bild1.jpeg){: .align-center}{:width="500px"}
+![image-center](Bild1.jpeg){: .align-center}{:max-width="320px"}
 
 Step 3: Got to the lpscrypt on a Linux system you will find it in 
 
