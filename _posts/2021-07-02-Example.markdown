@@ -4,11 +4,15 @@ title:  "Playground"
 date:   2021-07-04 09:32:52 +0200
 categories: jekyll update
 ---
+[![image-center](Bild1.jpeg){: .center-image}](Bild1.jpeg)
+
 
 Tests and playground 
 ~~~shell
 $ cd /usr/local/lpscrypt
 ~~~
+
+
 
 ~~~py
 $ cd /usr/local/lpscrypt
@@ -52,19 +56,7 @@ end
    0x40074f <main+191>:	push   eax
 Guessed arguments:
 arg[0]: 0xbffff63e --> 0x7025 ('%p')
-[------------------------------------stack-------------------------------------]
-0000| 0xbffff620 --> 0xbffff63e --> 0x7025 ('%p')
-0004| 0xbffff624 --> 0xbffff63e --> 0x7025 ('%p')
-0008| 0xbffff628 --> 0xa ('\n')
-0012| 0xbffff62c --> 0x4006a7 (<main+23>:	add    ebx,0x13ad)
-0016| 0xbffff630 --> 0xbffff65e --> 0x40 ('@')
-0020| 0xbffff634 --> 0x0 
-0024| 0xbffff638 --> 0xb7fe5100 (<_dl_lookup_symbol_x+16>:	add    edi,0x19f00)
-0028| 0xbffff63c --> 0x7025fc10 
-[------------------------------------------------------------------------------]
-Legend: code, data, rodata, value
 
-Breakpoint 1, 0x0040073e in main ()
 ``` 
 
 {% highlight ruby %}
@@ -75,7 +67,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-![image-center](Bild1.jpeg){: .align-center}{:width="500px"}
+![image-center](Bild1.jpeg){: .center-image}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
