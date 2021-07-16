@@ -4,7 +4,7 @@ title:  "Playground"
 date:   2021-07-04 09:32:52 +0200
 categories: jekyll update
 ---
-[![image-center](assets/images/Bild1.jpeg){: .center-image}](Bild1.jpeg)
+[![image-center](assets/images/Bild1.jpeg){: .center-image}](/assets/images/Bild1.jpeg)
 
 [![image-center](/assets/images/Bild2.jpeg){: .center-image}](/assets/images/Bild2.jpeg)
 Tests and playground 
