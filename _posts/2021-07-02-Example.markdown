@@ -4,9 +4,9 @@ title:  "Playground"
 date:   2021-07-04 09:32:52 +0200
 categories: jekyll update
 ---
-[![image-center](Bild1.jpeg){: .center-image}](Bild1.jpeg)
+[![image-center](assets/images/Bild1.jpeg){: .center-image}](Bild1.jpeg)
 
-[![image-center](/_assets/images/Bild2.jpeg){: .center-image}](/_assets/images/Bild2.jpeg)
+[![image-center](/assets/images/Bild2.jpeg){: .center-image}](/assets/images/Bild2.jpeg)
 Tests and playground 
 ~~~shell
 $ cd /usr/local/lpscrypt
